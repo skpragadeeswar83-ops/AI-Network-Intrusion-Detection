@@ -15,8 +15,8 @@ st.markdown("""
 **Student Project**: This system uses **Random Forest** to detect Network attacks and **Groq AI** to explain the packets.
 """)
 
-# --- CONFIGURATION ---
-DATA_FILE = "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv"
+# --- CONFIGURATION ---csv
+DATA_FILE="lite_dataset.csv"
 
 # --- SIDEBAR: SETTINGS ---
 st.sidebar.header("1. Settings")
